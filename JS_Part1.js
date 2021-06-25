@@ -50,10 +50,44 @@
 // They are equal to each other but are different types.
 
 
+// When would you receive a NaN result?
 
-When would you receive a NaN result?
-How do you increment and decrement a number?
-Explain the difference between prefixing and post-fixing increment/decrement operators.
-What is operator precedence and how is it handled in JS?
-How do you access developer tools and the console?
-How do you log information to the console?
+// Using NaN will result in NaN (or concatination) - Maths cannot be done without legal numbers.
+//Parsing numbers, using undefined as an operand, using NaN as an operand, using indeterminate forms, passing invalid arguments to a math function.
+// EX: 
+        const result = 10 + 1 / NaN;
+
+        console.log(result); // NaN
+
+// How do you increment and decrement a number?
+
+// Increment ++ increases a variable by 1
+// EX:
+        let counter = 2; 
+        counter++;
+        alert (counter); // 3
+
+// Decrement -- decreases a variable by 1
+// EX:
+        let counter = 2; 
+        counter--;
+        alert (counter); // 1
+
+// Explain the difference between prefixing and post-fixing increment/decrement operators.
+
+// ++ -- can be placed either before (pre-fix) or after (post-fix) a variable.
+
+
+// What is operator precedence and how is it handled in JS?
+
+// Expressions with more than one operator are executed in order of their precedence. 
+// Every operator has a corresponding precedence number. The larger the precedence number the earlier it is excecuted.
+// If operators have the same precedence number they are excecuted from left to right. 
+
+// How do you access developer tools and the console?
+
+        // Right click 'Inspect'
+
+// How do you log information to the console?
+
+    console.log(myFunction);
