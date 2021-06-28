@@ -76,6 +76,11 @@
 // Explain the difference between prefixing and post-fixing increment/decrement operators.
 
 // ++ -- can be placed either before (pre-fix) or after (post-fix) a variable.
+// EX:
+let counter = 2
+++counter;
+alert (counter); //2
+//Prefixing the operator will return the old value (prior to increment/decrement)
 
 
 // What is operator precedence and how is it handled in JS?
